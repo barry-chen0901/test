@@ -11,7 +11,7 @@ pipeline {
 
         stage('build2') {
           steps {
-            sh 'echo ${date}'
+            sh 'date'
           }
         }
 
